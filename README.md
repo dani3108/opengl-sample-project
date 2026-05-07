@@ -1,5 +1,5 @@
-# Sample CMake project for OpenGL development
+# Sample CMake OpenGL project
 
-A simple project for OpenGL development. Using CMake as build system, and including libraries GLAD and GLFW.
+A starter project for OpenGL development. Uses CMake as build system, and includes the libraries GLAD and GLFW.
 
 Made for the OpenGL tutorials at https://learnopengl.com
