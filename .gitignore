@@ -1,2 +1,5 @@
+# clangd cache folder
 .cache
+
+# vscode config folder
 .vscode
