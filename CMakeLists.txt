@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.4...3.28 FATAL_ERROR)
 add_subdirectory("lib/glad")            # OpenGL loader
 add_subdirectory("lib/glfw-3.4")        # Creating windows
 
-project(LearnOpenGL VERSION 0.1.0 LANGUAGES C CXX)
+project(MyProject VERSION 0.1.0 LANGUAGES C CXX)
 
 # Before add_executable
 set(CMAKE_CXX_STANDARD 23)
