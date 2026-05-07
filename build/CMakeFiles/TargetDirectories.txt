@@ -1,4 +1,4 @@
-C:/Users/Daniel/Desktop/LearnOpenGL/build/CMakeFiles/LearnOpenGL.dir
+C:/Users/Daniel/Desktop/LearnOpenGL/build/CMakeFiles/MyProject.dir
 C:/Users/Daniel/Desktop/LearnOpenGL/build/CMakeFiles/edit_cache.dir
 C:/Users/Daniel/Desktop/LearnOpenGL/build/CMakeFiles/rebuild_cache.dir
 C:/Users/Daniel/Desktop/LearnOpenGL/build/CMakeFiles/list_install_components.dir

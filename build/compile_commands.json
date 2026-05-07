@@ -1,9 +1,9 @@
 [
 {
   "directory": "C:/Users/Daniel/Desktop/LearnOpenGL/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/LearnOpenGL.dir/includes_CXX.rsp -g -std=c++23 -o CMakeFiles\\LearnOpenGL.dir\\src\\main.cpp.obj -c C:\\Users\\Daniel\\Desktop\\LearnOpenGL\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=c++23 -o CMakeFiles\\MyProject.dir\\src\\main.cpp.obj -c C:\\Users\\Daniel\\Desktop\\LearnOpenGL\\src\\main.cpp",
   "file": "C:/Users/Daniel/Desktop/LearnOpenGL/src/main.cpp",
-  "output": "CMakeFiles/LearnOpenGL.dir/src/main.cpp.obj"
+  "output": "CMakeFiles/MyProject.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Daniel/Desktop/LearnOpenGL/build/lib/glad",

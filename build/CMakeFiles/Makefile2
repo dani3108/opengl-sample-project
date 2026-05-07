@@ -62,13 +62,13 @@ CMAKE_BINARY_DIR = C:\Users\Daniel\Desktop\LearnOpenGL\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LearnOpenGL.dir/all
+all: CMakeFiles/MyProject.dir/all
 all: lib/glad/all
 all: lib/glfw-3.4/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/LearnOpenGL.dir/codegen
+codegen: CMakeFiles/MyProject.dir/codegen
 codegen: lib/glad/codegen
 codegen: lib/glfw-3.4/codegen
 .PHONY : codegen
@@ -79,7 +79,7 @@ preinstall: lib/glfw-3.4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LearnOpenGL.dir/clean
+clean: CMakeFiles/MyProject.dir/clean
 clean: lib/glad/clean
 clean: lib/glfw-3.4/clean
 .PHONY : clean
@@ -167,37 +167,37 @@ lib/glfw-3.4/src/clean: lib/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : lib/glfw-3.4/src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LearnOpenGL.dir
+# Target rules for target CMakeFiles/MyProject.dir
 
 # All Build rule for target.
-CMakeFiles/LearnOpenGL.dir/all: lib/glad/CMakeFiles/glad.dir/all
-CMakeFiles/LearnOpenGL.dir/all: lib/glfw-3.4/src/CMakeFiles/glfw.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles --progress-num=1,2 "Built target LearnOpenGL"
-.PHONY : CMakeFiles/LearnOpenGL.dir/all
+CMakeFiles/MyProject.dir/all: lib/glad/CMakeFiles/glad.dir/all
+CMakeFiles/MyProject.dir/all: lib/glfw-3.4/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles --progress-num=1,2 "Built target MyProject"
+.PHONY : CMakeFiles/MyProject.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LearnOpenGL.dir/rule: cmake_check_build_system
+CMakeFiles/MyProject.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LearnOpenGL.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MyProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles 0
-.PHONY : CMakeFiles/LearnOpenGL.dir/rule
+.PHONY : CMakeFiles/MyProject.dir/rule
 
 # Convenience name for target.
-LearnOpenGL: CMakeFiles/LearnOpenGL.dir/rule
-.PHONY : LearnOpenGL
+MyProject: CMakeFiles/MyProject.dir/rule
+.PHONY : MyProject
 
 # codegen rule for target.
-CMakeFiles/LearnOpenGL.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles --progress-num=1,2 "Finished codegen for target LearnOpenGL"
-.PHONY : CMakeFiles/LearnOpenGL.dir/codegen
+CMakeFiles/MyProject.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Daniel\Desktop\LearnOpenGL\build\CMakeFiles --progress-num=1,2 "Finished codegen for target MyProject"
+.PHONY : CMakeFiles/MyProject.dir/codegen
 
 # clean rule for target.
-CMakeFiles/LearnOpenGL.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LearnOpenGL.dir\build.make CMakeFiles/LearnOpenGL.dir/clean
-.PHONY : CMakeFiles/LearnOpenGL.dir/clean
+CMakeFiles/MyProject.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/clean
+.PHONY : CMakeFiles/MyProject.dir/clean
 
 #=============================================================================
 # Target rules for target lib/glad/CMakeFiles/glad.dir

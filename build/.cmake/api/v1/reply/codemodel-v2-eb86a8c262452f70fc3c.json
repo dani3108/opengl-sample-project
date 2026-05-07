@@ -116,7 +116,7 @@
 					[
 						0
 					],
-					"name" : "LearnOpenGL",
+					"name" : "MyProject",
 					"targetIndexes" : 
 					[
 						0
@@ -159,9 +159,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "LearnOpenGL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LearnOpenGL-Debug-c442032dedfd5df322a1.json",
-					"name" : "LearnOpenGL",
+					"id" : "MyProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyProject-Debug-f4bbc96d99a58908ced8.json",
+					"name" : "MyProject",
 					"projectIndex" : 0
 				},
 				{

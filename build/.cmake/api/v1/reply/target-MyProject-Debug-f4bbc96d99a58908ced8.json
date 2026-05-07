@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "LearnOpenGL.exe"
+			"path" : "MyProject.exe"
 		},
 		{
-			"path" : "LearnOpenGL.pdb"
+			"path" : "MyProject.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -101,7 +101,7 @@
 			"id" : "glfw::@b2a432fffaf8de0f0139"
 		}
 	],
-	"id" : "LearnOpenGL::@6890427a1f51a3e7e1df",
+	"id" : "MyProject::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -138,8 +138,8 @@
 			"id" : "glad::@bf3af473941166e98053"
 		}
 	],
-	"name" : "LearnOpenGL",
-	"nameOnDisk" : "LearnOpenGL.exe",
+	"name" : "MyProject",
+	"nameOnDisk" : "MyProject.exe",
 	"paths" : 
 	{
 		"build" : ".",
