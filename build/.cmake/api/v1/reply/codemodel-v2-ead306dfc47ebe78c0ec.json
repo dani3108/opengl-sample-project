@@ -1,0 +1,209 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Threads::Threads::@dd6bd5fbca076d6958d5",
+					"jsonFile" : "target-Threads__Threads-Debug-d19b927bf6709bbf8199.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/glad",
+					"jsonFile" : "directory-lib.glad-Debug-be030684fdc5c831b6f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glad",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "lib/glfw-3.4",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-3.4-Debug-f8d6f0b1c59b81763c53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glfw-3.4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/glfw-3.4/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-3.4.src-Debug-e1428e81a47fdd6ed45b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/glfw-3.4/src",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "lib/glfw-3.4/docs",
+					"jsonFile" : "directory-lib.glfw-3.4.docs-Debug-608aa6cd88eec17887de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/glfw-3.4/docs"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LearnOpenGL",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LearnOpenGL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LearnOpenGL-Debug-c442032dedfd5df322a1.json",
+					"name" : "LearnOpenGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@bf3af473941166e98053",
+					"jsonFile" : "target-glad-Debug-017137d8fa51405c200f.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@b2a432fffaf8de0f0139",
+					"jsonFile" : "target-glfw-Debug-eeb95c19a1e14219ab7f.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@dd6bd5fbca076d6958d5",
+					"jsonFile" : "target-uninstall-Debug-a58a0776d8fd5fab0d42.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@b2a432fffaf8de0f0139",
+					"jsonFile" : "target-update_mappings-Debug-a7d955b4c323406aaece.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Daniel/Desktop/LearnOpenGL/build",
+		"source" : "C:/Users/Daniel/Desktop/LearnOpenGL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}
