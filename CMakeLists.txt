@@ -29,7 +29,7 @@ add_subdirectory("lib/glfw-3.4")        # Creating windows
 
 add_subdirectory(src/)
 
-# Creating a subdirectory for each LearnOpenGL chapter 
+# Create a subdirectory for each LearnOpenGL chapter 
 # Each subdirectory will need its own CMakeLists.txt file
 
 # add_subdirectory(src/chapter_1_getting_started)
