@@ -16,7 +16,8 @@ target_link_libraries(
 
 # add_executable(
 #     lesson_2
-#     lesson_2.cpp
+#     chapter_1_getting_started/lesson_2.cpp
+#     chapter_1_getting_started/other_file.cpp
 # )
 
 # target_link_libraries(
