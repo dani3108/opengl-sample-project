@@ -1,7 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <cstddef>
 #include <iostream>
 
 constexpr int DISPLAY_WIDTH { 800 };
