@@ -1,12 +1,26 @@
-# Adding source code files to the executable
-add_executable(
-    hello_window
-    hello_window.cpp
-)
-# Linking the necessary libraries
-target_link_libraries(
-    hello_window
-    glfw
-    glad
-    OpenGL::GL
-)
+# =========================================
+# Compile flags
+# =========================================
+
+if (MSVC)
+    add_compile_options(/W4 /permissive-)
+else()
+    add_compile_options(
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wconversion
+    )
+    if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+        add_compile_options(
+            -Wconditional-uninitialized
+        )
+    endif()
+endif()
+
+# =========================================
+# Lessons
+# =========================================
+
+# 1. Hello Window
+add_demo(hello_window lesson_1_hello_window/hello_window.cpp)
