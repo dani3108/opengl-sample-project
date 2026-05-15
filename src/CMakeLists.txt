@@ -23,4 +23,4 @@ endif()
 # =========================================
 
 # 1. Hello Window
-add_demo(hello_window lesson_1_hello_window/hello_window.cpp)
+add_demo(hello_window hello_window.cpp)
