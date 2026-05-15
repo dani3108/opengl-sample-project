@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
-project(OpenGLProject VERSION 0.1.0 LANGUAGES C CXX)
+project(LearnOpenGL VERSION 0.1.0 LANGUAGES C CXX)
 
 # =========================================
 # Global config
@@ -13,10 +13,21 @@ endif()
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Output folder for executables
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+# set(CMAKE_VERBOSE_MAKEFILE ON)
+
+# =========================================
+# Helper function
+# =========================================
+
+function(add_demo name src)
+    add_executable(${name} ${src})
+
+    target_link_libraries(${name}
+        PRIVATE glfw glad OpenGL::GL
+    )
+endfunction()
 
 # =========================================
 # Third party libraries
@@ -32,11 +43,5 @@ add_subdirectory("lib/glfw-3.4")        # Creating windows
 # OpenGL Chapters
 # =========================================
 
-add_subdirectory(src/)
-
-# Create a subdirectory for each LearnOpenGL chapter 
-# Each subdirectory will need its own CMakeLists.txt file
-
-# add_subdirectory(src/chapter_1_getting_started)
+add_subdirectory(src/chapter_1_getting_started)
 # add_subdirectory(src/chapter_2_lighting)
-# ...
