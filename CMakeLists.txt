@@ -45,3 +45,4 @@ add_subdirectory("lib/glfw-3.4")        # Creating windows
 
 add_subdirectory(src/chapter_1_getting_started)
 # add_subdirectory(src/chapter_2_lighting)
+# ...
