@@ -10,19 +10,3 @@ target_link_libraries(
     glad
     OpenGL::GL
 )
-
-# Other lessons with their associated files and libraries may be added below
-# Each lesson will have its own executable
-
-# add_executable(
-#     lesson_2
-#     chapter_1_getting_started/lesson_2.cpp
-#     chapter_1_getting_started/other_file.cpp
-# )
-
-# target_link_libraries(
-#     lesson_2
-#     glfw
-#     glad
-#     OpenGL::GL
-# )
